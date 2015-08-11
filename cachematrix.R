@@ -1,5 +1,5 @@
 # File: cachematrix.R
-# Date: 2015-08-11T14:12:40A
+# Date: 2015-08-11T14:19:34A
 # Author: richard.zijdeman@iisg.nl
 # Last change: -
 
@@ -9,7 +9,7 @@
 ## operations.
 
 ## The makeCacheMatrix() function requires a matrix as input and returns a list 
-## of function required to decide whether to calculate the inverse matrix
+## of functions required to decide whether to calculate the inverse matrix
 ## or get it from cache.
 
 makeCacheMatrix <- function(x = matrix()) { # fun with matrix as argument
